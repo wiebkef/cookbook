@@ -7,6 +7,10 @@ nav {
 main {
 }
 
+.recipes #carouselExample {
+  max-height: 500px;
+}
+
 footer {
 }
 
