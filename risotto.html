@@ -11,114 +11,103 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="risotto.css" />
   </head>
   <body>
-    <div class="container-fluid p-0">
-      <div class="row">
-        <div class="col-md-5">
-          <h1>Risotto ai funghi</h1>
-
-          <div class="row">
-            <div class="col">20 min</div>
-            <div class="col">easy</div>
-            <div class="col">2 servings</div>
-            <div class="col">410 kcal</div>
+    <header></header>
+    <main>
+      <section class="teaser container mt-4">
+        <div class="row p-4 p-md-5 mb-4 rounded align-items-center">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Risotto ai funghi</h1>
+            <p class="lead my-3">
+              Delicious vegeterian mushroom risotto for two. Easy to prepare. No
+              need for any fancy kitchen helpers to recreate this healthy dish.
+            </p>
+            <p class="lead mb-0">
+              <a href="#preparation" class="text-secondary fw-bold"
+                >Start cooking...</a
+              >
+            </p>
           </div>
-
-          <div class="description">
-            Delicious vegeterian mushroom risotto for two
-          </div>
-        </div>
-        <div class="col-md-7 overflow-hidden">
-          <img src="pilzrisotto.jpg" alt="risotto in a bowl" />
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-8 overflow-hidden">
-          <img src="pilzrisotto.jpg" alt="risotto in a bowl" />
-        </div>
-        <div class="col-4">
-          <h1>Risotto ai funghi</h1>
-          <div class="row">
-            <div class="col">20 min</div>
-            <div class="col">easy</div>
-            <div class="col">2 servings</div>
-            <div class="col">410 kcal</div>
-          </div>
-          <div class="description">
-            Delicious vegeterian mushroom risotto for two
+          <div class="col-md-6">
+            <img
+              class="rounded img-fluid"
+              src="images/pilzrisotto.jpg"
+              alt="risotto in a bowl"
+            />
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-6"></div>
-        <table>
-          <thead>
-            <tr>
-              <th>Amount</th>
-              <th>Ingredient</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>300 g</td>
-              <td>variation of mushrooms</td>
-            </tr>
-            <tr>
-              <td>200 g</td>
-              <td>Risotto rice</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>onions</td>
-            </tr>
-            <tr>
-              <td>1 clove</td>
-              <td>garlic</td>
-            </tr>
-            <tr>
-              <td>40 g</td>
-              <td>butter</td>
-            </tr>
-            <tr>
-              <td>100 ml</td>
-              <td>white wine</td>
-            </tr>
-            <tr>
-              <td>400 ml</td>
-              <td>chicken broth</td>
-            </tr>
-            <tr>
-              <td>50 g</td>
-              <td>parmigiano</td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="directions">
-          <p>
-            Clean the mushrooms, cut the large ones into cubes. Peel the
-            shallots and garlic, chop finely and sauté in 1 tbsp butter in a pot
-            and briefly add the rice. Deglaze with white wine and add the
-            chicken stock. Cook the rice for about 12 minutes, stirring
-            constantly, then remove the pan from the heat. Stir in the remaining
-            butter and the Parmesan cheese.
-          </p>
-          <p>
-            Heat the olive oil in the pan, add the second shallot and sauté the
-            mushrooms for about 3 minutes. Fold the mushrooms into the risotto,
-            season everything with salt, nutmeg and pepper and sprinkle with the
-            chopped parsley.
-          </p>
-          <p>
-            Tip: As a main course, the quantity is enough for 2 people, as a
-            side dish for 4 people.
-          </p>
+      </section>
+      <section class="container" id="preparation">
+        <div class="row p-4 p-md-5 mb-4 rounded">
+          <div class="col-md-6 px-0">
+            <table class="table table-striped text-bg-light">
+              <thead>
+                <tr>
+                  <th>Amount</th>
+                  <th>Ingredient</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>300 g</td>
+                  <td>variation of mushrooms</td>
+                </tr>
+                <tr>
+                  <td>200 g</td>
+                  <td>Risotto rice</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>onions</td>
+                </tr>
+                <tr>
+                  <td>1 clove</td>
+                  <td>garlic</td>
+                </tr>
+                <tr>
+                  <td>40 g</td>
+                  <td>butter</td>
+                </tr>
+                <tr>
+                  <td>100 ml</td>
+                  <td>white wine</td>
+                </tr>
+                <tr>
+                  <td>400 ml</td>
+                  <td>chicken broth</td>
+                </tr>
+                <tr>
+                  <td>50 g</td>
+                  <td>parmigiano</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <p class="lead my-3">
+              Clean the mushrooms, cut the large ones into cubes. Peel the
+              shallots and garlic, chop finely and sauté in 1 tbsp butter in a
+              pot and briefly add the rice. Deglaze with white wine and add the
+              chicken stock. Cook the rice for about 12 minutes, stirring
+              constantly, then remove the pan from the heat. Stir in the
+              remaining butter and the Parmesan cheese.
+            </p>
+            <p class="lead my-3">
+              Heat the olive oil in the pan, add the second shallot and sauté
+              the mushrooms for about 3 minutes. Fold the mushrooms into the
+              risotto, season everything with salt, nutmeg and pepper and
+              sprinkle with the chopped parsley.
+            </p>
+            <p class="lead my-3">
+              Tip: As a main course, the quantity is enough for 2 people, as a
+              side dish for 4 people.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
