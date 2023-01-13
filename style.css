@@ -55,7 +55,9 @@ main {
 .recipes img {
   max-height: 700px;
 }
-
+.carousel-item {
+  text-align: center;
+}
 footer {
 }
 

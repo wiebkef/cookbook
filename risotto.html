@@ -12,9 +12,40 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="risotto.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/risotto.html">Risotto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/kebab.html">Kebab</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/myrecipe.html">Rice Kheer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="teaser container mt-4">
         <div
@@ -119,16 +150,72 @@
           </div>
         </div>
       </section>
-      <section class="container share">
+      <section class="container share d-flex justify-content-center">
         <button
           type="button"
-          class="btn btn-lg fw-bold"
+          class="btn btn-lg fw-bold my-2"
           onclick="alert('Thanks for sharing our recipe!');"
         >
           SHARE
         </button>
       </section>
     </main>
-    <footer></footer>
+<footer>
+    <!--jumbotron-->
+    <div class="footerbkgrnd"> <!--just now added for color-->
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="display-6">
+          <center><em>Let's stay in touch</em>
+        </div>
+        <div class="container-fluid py-5">
+          <p class="col-md-8 fs-4">
+          <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-6 mb-9">
+                  <h5>Classic Recipes</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 ClassicRecipes, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#twitter" />
+                      </svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#instagram" />
+                      </svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#facebook" />
+                      </svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+
+        </div>
+      </div><!-- added for background color-->
+    </div><!--added for backgrnd color-->
+
   </body>
 </html>
