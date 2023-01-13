@@ -52,10 +52,12 @@ html {
 main {
 }
 
-.recipes {
-  max-height: 100-vh;
+.recipes img {
+  max-height: 700px;
 }
-
+.carousel-item {
+  text-align: center;
+}
 footer {
 }
 
